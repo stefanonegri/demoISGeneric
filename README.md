@@ -29,11 +29,14 @@ demo to show a basic IS capabilities:
   - 2FA
       - Go to the login flow and add TOTP as second step
       - Open a browser tab and go to localhost:3000
-      - Login with Google (StefanoIS/****)
+      - Login u/p (StefanoIS/****)
       - Complete the 2nd step authentication
   - Conditional authentication
-     - Go to the login flow and add TOTP as second step
+     - Go to the login flow and enable conditional authentication
+     - Go to the predefined flows/conditional login flow and add 'IP based'
+        - explain what it does, click over the info label
+        - modify the script, adding 127.0.0.1 in the list of corporate network: var corpNetwork = ['192.168.1.0/24', '10.100.0.0/16', 127.0.0.1/1]; update
      - Open a browser tab and go to localhost:3000
-     - Login with Google (StefanoIS/****)
-     - Complete the 2nd step authentication
+     - Login with u/p (StefanoIS/****)
+     - 2nd step authentication doesn't occur
 
