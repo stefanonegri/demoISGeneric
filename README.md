@@ -55,6 +55,14 @@ demo to show a basic IS capabilities:
 ### Organization and Authorization use case
 1. Show the created organization City Vet Hospital
 2. Show the shared app PetCareApp2
-3. Show the 
+   - Show the Roles associated to the app
+   - Show the API Authorization page and API resources
+3. Switch to organization
+   - explain what it is possible to do in the organization
+   - show the inerited app and users/roles
+4. Access the app at localhost:3002
+   login with admin@cityvet.com
+   login with doctor@cityvet.com
+   login with user@citivet.com
 
 
