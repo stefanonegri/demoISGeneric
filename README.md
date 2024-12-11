@@ -52,6 +52,9 @@ demo to show a basic IS capabilities:
 1. Show the user portal: https://localhost:9443/t/carbon.super/myaccount/overview
 2. Show how to configure the password reset and self registration
    - go under Login & Registration
+### Branding
+1. Show branding -> Images
+   - show logo, favicon and color
 ### Organization and Authorization use case
 1. Show the created organization City Vet Hospital
 2. Show the shared app PetCareApp2
